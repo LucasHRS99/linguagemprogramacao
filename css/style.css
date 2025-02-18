@@ -24,11 +24,12 @@ button {
 }
 
 .card{
-    background-color: white;
+    background-color: #333;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     text-align: center;
+    color: white;
 }
 
 .image{
@@ -38,4 +39,14 @@ button {
     margin-bottom: 5px;
 }
 
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
     
